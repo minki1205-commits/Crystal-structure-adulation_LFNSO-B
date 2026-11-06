@@ -1,0 +1,49 @@
+{
+  "workbook": "/workspace/lfnso-data/raw_xrd/LFSO_LFNSO21 XRD data.xlsx",
+  "sheet": "그래프데이터",
+  "output": "../03_structure_model_search/raw_xrd_03",
+  "wavelength_A": 1.5406,
+  "wavelength_source": "User suggests MiniXRD Cu Kalpha; 1.5406 Å provisional, monochromation/Kalpha2 status unconfirmed",
+  "preprocessing_history": "not recorded in workbook; pending confirmation",
+  "peak_targets_deg": {
+    "LFSO": {
+      "anchor_001_assumed": 18.34,
+      "anchor_020_assumed": 19.96,
+      "feature_1": 20.86,
+      "feature_2": 23.36,
+      "feature_3": 27.2,
+      "feature_4": 31.78
+    },
+    "LFNSO21-A": {
+      "anchor_001_assumed": 18.2,
+      "anchor_020_assumed": 19.86,
+      "feature_1": 20.78,
+      "feature_2": 23.26,
+      "feature_3": 27.1,
+      "feature_4": 31.72,
+      "high_35": 35.36,
+      "high_37": 36.94
+    },
+    "LFNSO21-B": {
+      "anchor_001_assumed": 18.2,
+      "anchor_020_assumed": 19.84,
+      "feature_1": 22.2,
+      "feature_2": 24.78,
+      "feature_3": 29.18,
+      "feature_4": 34.34,
+      "high_35": 35.14,
+      "high_37": 36.86
+    }
+  },
+  "profile_halfwidths_deg": [
+    0.25,
+    0.35,
+    0.45
+  ],
+  "note": "Peak labels are hypotheses. Single symmetric pseudo-Voigt envelope plus linear background, fitted to workbook values without smoothing. Kalpha splitting, instrument zero and processing history remain unmodelled.",
+  "wavelength_sensitivity_A": [
+    1.5406,
+    1.5418
+  ],
+  "prior_position_result": "../03_structure_model_search/position_screening_02/result.json"
+}

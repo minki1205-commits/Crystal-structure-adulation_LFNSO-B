@@ -1,0 +1,26 @@
+{
+  "template": "/workspace/lfnso-data/raw/Li2MnO3_C2M_JEMS.cif",
+  "metric_parameters": [
+    5.1706,
+    8.9382,
+    5.1635,
+    90,
+    109.49,
+    90
+  ],
+  "wavelength_A": 1.5406,
+  "xrd_result": "../03_structure_model_search/raw_xrd_03/result.json",
+  "output": "../03_structure_model_search/composition_models_03",
+  "composition_source": "User: Li4Fe0.67Ni0.33SbO6; Ni substitutes Fe host sites",
+  "metric_source": "Master prompt starting hypothesis; not refined structure",
+  "charge_status": "Oxidation states not supplied; evaluate scenarios without imposing a valence",
+  "candidate_ids": [
+    "Sb_Fe_host_7b_pattern0",
+    "Sb_Fe_host_7b_pattern1",
+    "Sb_Fe_host_7b_pattern2",
+    "Li_TM_75_7b",
+    "Li_TM_100_7b",
+    "D008_7b",
+    "D015_7b"
+  ]
+}

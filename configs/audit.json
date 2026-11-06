@@ -1,0 +1,8 @@
+{
+  "input_roots": ["../inputs"],
+  "parent_cif": null,
+  "output": "../03_structure_model_search/initial_audit",
+  "periods": [1, 3, 4],
+  "seed": 0,
+  "wavelength_A": null
+}

@@ -1,0 +1,14 @@
+{
+  "input_directory": "/workspace/lfnso-data/raw",
+  "reference_cif": "Li2MnO3_C2M_JEMS.cif",
+  "output": "../03_structure_model_search/uploaded_survey_02",
+  "sample_identity": "LFNSO21-B",
+  "unavailable": [
+    {
+      "filename": "OneView_300X_200kV_0021_001.dm4",
+      "reason": "download tool transfer limit of 32 MiB"
+    }
+  ],
+  "image1_detector": "HAADF",
+  "identity_provenance": "user confirmation in this conversation; no reference/A images supplied"
+}

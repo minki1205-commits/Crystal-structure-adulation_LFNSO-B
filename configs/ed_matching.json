@@ -1,0 +1,149 @@
+{
+  "output": "../03_structure_model_search/ed_matching_01",
+  "candidate_summary": "../03_structure_model_search/occupational_search_03/summary.json",
+  "template": "/workspace/lfnso-data/raw/Li2MnO3_C2M_JEMS.cif",
+  "datasets": [
+    {
+      "id": "DP01_101",
+      "peaks": "../03_structure_model_search/uploaded_survey_02/peaks/DP01_101.json",
+      "raw": "/workspace/lfnso-data/raw/DP01_101.dm3",
+      "kind": "dm3",
+      "nominal_zone": [
+        1,
+        0,
+        1
+      ],
+      "zone_hypotheses": [
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          -1
+        ]
+      ],
+      "pixel_scale_nm_inv": 0.016421644,
+      "roi_yxyx": [
+        10,
+        10,
+        2038,
+        2038
+      ],
+      "position_tolerances_nm_inv": [
+        0.05,
+        0.08,
+        0.12
+      ]
+    },
+    {
+      "id": "dp3_110",
+      "peaks": "../03_structure_model_search/uploaded_survey_02/peaks/dp3_110.json",
+      "raw": "/workspace/lfnso-data/raw/dp3_110.dm3",
+      "kind": "dm3",
+      "nominal_zone": [
+        1,
+        1,
+        0
+      ],
+      "zone_hypotheses": [
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "pixel_scale_nm_inv": 0.016421644,
+      "roi_yxyx": [
+        10,
+        10,
+        2038,
+        2038
+      ],
+      "position_tolerances_nm_inv": [
+        0.05,
+        0.08,
+        0.12
+      ]
+    },
+    {
+      "id": "OneView_300X_200kV_0021_001",
+      "peaks": "../03_structure_model_search/position_screening_02/OneView_300X_200kV_0021_001_peaks.json",
+      "raw": "/workspace/lfnso-data/raw_tiff/OneView_300X_200kV_0021_001.tif",
+      "kind": "display_tiff",
+      "nominal_zone": [
+        0,
+        0,
+        1
+      ],
+      "zone_hypotheses": [
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "pixel_scale_nm_inv": 0.07936507936507936,
+      "roi_yxyx": [
+        70,
+        120,
+        570,
+        590
+      ],
+      "position_tolerances_nm_inv": [
+        0.16,
+        0.24,
+        0.32
+      ]
+    },
+    {
+      "id": "OneView_250X_200kV_0052",
+      "peaks": "../03_structure_model_search/position_screening_02/OneView_250X_200kV_0052_peaks.json",
+      "raw": "/workspace/lfnso-data/raw_tiff/OneView_250X_200kV_0052.tif",
+      "kind": "display_tiff",
+      "nominal_zone": [
+        1,
+        1,
+        0
+      ],
+      "zone_hypotheses": [
+        [
+          1,
+          1,
+          0
+        ]
+      ],
+      "pixel_scale_nm_inv": 0.06756756756756757,
+      "roi_yxyx": [
+        50,
+        100,
+        460,
+        530
+      ],
+      "position_tolerances_nm_inv": [
+        0.16,
+        0.24,
+        0.32
+      ]
+    }
+  ],
+  "registration_scale_bounds": [
+    0.9,
+    1.1
+  ],
+  "intensity_thresholds_percent": [
+    0.1,
+    1,
+    5
+  ],
+  "orientation_null_degrees": [
+    13,
+    29,
+    47,
+    71
+  ],
+  "overlay_model": "conditional_B_11b_seed29",
+  "g_range_note": "0.6-12 nm^-1 common radial range, intersection with original detection ROIs. Tolerances and \u00b110% scale bounds are diagnostics, not measured uncertainties."
+}

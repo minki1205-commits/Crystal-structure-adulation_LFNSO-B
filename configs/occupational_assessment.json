@@ -1,0 +1,13 @@
+{
+  "output": "../03_structure_model_search/occupational_assessment_03",
+  "sources": [
+    "../03_structure_model_search/occupational_search_02",
+    "../03_structure_model_search/occupational_search_03"
+  ],
+  "experimental_csv": "/workspace/Crystal-structure-adulation_LFNSO-B/03_structure_model_search/raw_xrd_03/LFNSO21-B_profile.csv",
+  "widths_deg": [
+    0.15,
+    0.25,
+    0.4
+  ]
+}

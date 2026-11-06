@@ -1,0 +1,17 @@
+{
+  "output":"../03_structure_model_search/occupational_search_02",
+  "template":"/workspace/lfnso-data/raw/Li2MnO3_C2M_JEMS.cif",
+  "experimental_csv":"/workspace/Crystal-structure-adulation_LFNSO-B/03_structure_model_search/raw_xrd_03/LFNSO21-B_profile.csv",
+  "metrics":{
+    "starting":[5.1706,8.9382,5.1635,90,109.49,90],
+    "conditional_B":[5.154350084161751,8.945419424033282,5.143718543141643,90,108.80422706371266,90]
+  },
+  "periods":[7,11],
+  "seeds":[17,29],
+  "steps":2000,
+  "wavelength_A":1.5406,
+  "width_deg":0.25,
+  "windows":{"train":[20.4,30.2],"holdout_superstructure":[30.3,34.6],"holdout_high_angle":[35,45]},
+  "composition":"Li4Fe0.67Ni0.33SbO6; Ni co-occupies every Fe-host site",
+  "conditional_metric_note":"Algebraic five-feature solution from earlier raw XRD stage, not independently refined cell."
+}

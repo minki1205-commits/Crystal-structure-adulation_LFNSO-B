@@ -1,0 +1,5 @@
+{
+  "output":"../03_structure_model_search/ed_metric_diagnostic_01",
+  "source_summary":"../03_structure_model_search/ed_matching_01/summary.json",
+  "affine_component_bound":0.04
+}

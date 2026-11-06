@@ -1,0 +1,7 @@
+{
+  "output":"../03_structure_model_search/joint_review_01",
+  "ed":"../03_structure_model_search/ed_matching_01/summary.json",
+  "affine":"../03_structure_model_search/ed_metric_diagnostic_01/summary.json",
+  "positions":"../03_structure_model_search/position_screening_02/result.json",
+  "xrd":"../03_structure_model_search/raw_xrd_03/result.json"
+}

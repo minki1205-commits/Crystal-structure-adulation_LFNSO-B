@@ -1,0 +1,32 @@
+[
+  {
+    "name": "LFNSO_ED_matching_results.zip",
+    "bytes": 27741044,
+    "sha256": "1ae3ca2e8472e17de5e07167debc884ae43bc757c1d2de3156d73cda63756fca"
+  },
+  {
+    "name": "LFNSO_composition_models.zip",
+    "bytes": 877820,
+    "sha256": "290302e43a9072d8a72a872fe974478a6802a229968cab08e3dfca860f1e1db8"
+  },
+  {
+    "name": "LFNSO_occupational_search_results.zip",
+    "bytes": 6074244,
+    "sha256": "bed2b755e8c0ba41a402762fd38dc0b305ae73b9469ac3510d8daae282092c88"
+  },
+  {
+    "name": "latest_joint_review.html",
+    "bytes": 102042,
+    "sha256": "3f584ea7fd44da79b4c506477e404ba34ba5a1e320e233a8809b3ec3df97d17c"
+  },
+  {
+    "name": "latest_joint_scores.csv",
+    "bytes": 2807,
+    "sha256": "ae64b6d3a5b3b84f1e57055124b8d760bda41ea2ec81c507031e387e9707dd1e"
+  },
+  {
+    "name": "raw_xrd_results.zip",
+    "bytes": 2318774,
+    "sha256": "8308120ab73e00e773635f3d259f49e0b488d4bbf9fd504f3c4c6aefa93b1791"
+  }
+]

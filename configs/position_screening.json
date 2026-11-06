@@ -1,0 +1,22 @@
+{
+  "output": "../03_structure_model_search/position_screening_02",
+  "metric_source": "Starting LFNSO metric from user master prompt; not refined from these data",
+  "lattice_parameters": [5.1706, 8.9382, 5.1635, 90, 109.49, 90],
+  "xrd_source": "Inline A/B plot in user message; manual visual reading of d-spacing axis. No local raster file or raw counts available.",
+  "xrd_reading_halfwidth_A": 0.02,
+  "xrd_B_d_A": [4.89, 4.50, 4.03, 3.62, 3.08, 2.57],
+  "xrd_A_resolved_d_A": [4.30, 3.85, 3.31, 2.84, 2.56],
+  "satellite_test": {
+    "parent_hkl": [[1,1,0],[-1,1,1],[0,2,1]],
+    "B_d_A": [4.03,3.62,3.08],
+    "interpretation": "Conditional first-order +delta b* assignments, chosen from pattern proximity. Other hkl/metric/domain hypotheses remain possible.",
+    "delta_candidates": [0, 0.16666666666666666, 0.25, 0.3333333333333333, 0.5]
+  },
+  "ed_peak_json": "../03_structure_model_search/uploaded_survey_02/peaks/DP01_101.json",
+  "ed_seed_peak_indices": [1,2],
+  "ed_basis_note": "Empirical orthogonal reciprocal basis u,v from two strong reflections. v tentatively b*. Do not equate u with a crystallographic direction until monoclinic setting is validated.",
+  "tiffs": [
+    {"path":"/workspace/lfnso-data/raw_tiff/OneView_300X_200kV_0021_001.tif", "zone_label":"001", "roi_yxyx":[70,120,570,590], "center_seed_yx":[331,356], "scale_bar_row":650, "scale_bar_x_edges":[44,170], "scale_bar_nm_inv":10},
+    {"path":"/workspace/lfnso-data/raw_tiff/OneView_250X_200kV_0052.tif", "zone_label":"110", "roi_yxyx":[50,100,460,530], "center_seed_yx":[241,273], "scale_bar_row":514, "scale_bar_x_edges":[143,291], "scale_bar_nm_inv":10}
+  ]
+}

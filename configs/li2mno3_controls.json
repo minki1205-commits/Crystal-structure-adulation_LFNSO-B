@@ -1,0 +1,9 @@
+{
+  "input_roots": ["/workspace/lfnso-data/raw/Li2MnO3_C2M_JEMS.cif"],
+  "parent_cif": "/workspace/lfnso-data/raw/Li2MnO3_C2M_JEMS.cif",
+  "parent_role": "Li2MnO3 geometry reference only; not LFNSO21-B composition or refined lattice",
+  "output": "../03_structure_model_search/li2mno3_controls_01",
+  "periods": [1, 3, 4, 6],
+  "seed": 0,
+  "wavelength_A": null
+}

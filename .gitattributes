@@ -1,0 +1,4 @@
+# Preserve uploaded prompt bytes and standard CSV CRLF terminators.
+docs/MASTER_PROMPT.md -text whitespace=cr-at-eol
+results/*.csv -text whitespace=cr-at-eol
+*.zip binary
