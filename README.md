@@ -1,9 +1,11 @@
 # LFNSO21-B structure discovery
 
-Li4Fe0.67Ni0.33SbO6의 XRD·ED·STEM 자료를 함께 설명할 구조 가설을 탐색하는 연구 코드입니다. Ni는 Fe-host에 .67/.33 평균 점유로 배치합니다. 현재 **후보 생성 → XRD screening → 실제 ED 위치 정합**까지 진행했고, 공동 검증을 통과한 최종 구조는 없습니다. STEM multislice는 아직 실행하지 않았습니다.
+Li4Fe0.67Ni0.33SbO6의 XRD·ED·STEM 자료를 함께 설명할 구조 가설을 탐색하는 연구 코드입니다. 자체 생성 모델은 Ni를 Fe-host에 .67/.33 평균 점유로 배치하고, 공동연구기관 CIF는 제공된 층별 혼합 점유 그대로 별도 검토합니다. 현재 **후보 생성 → XRD screening → 실제 ED 위치 정합**까지 진행했고, 공동 검증을 통과한 최종 구조는 없습니다. STEM multislice는 아직 실행하지 않았습니다.
 
 ## 최신 결과
 
+- [공동연구기관 C2 P/S 교대 CIF 검토](docs/COLLABORATOR_CIF_REVIEW.md): 받은 CIF는 XRD 전체를 설명하지 못하지만 [110] ED와 [001] 기본 격자에는 부분 대응이 있습니다. 저각 피크에 격자를 맞추면 35–45° 구간이 악화되며 DP01 대응도 미해결입니다. 사용자가 알려준 이번 CIF의 STEM [001]/[100]과 ED 파일 축을 구분해 비교했습니다. 보고서: `results/collaborator_CIF_review.html`.
+- [c축 가설 확장 및 XRD–ED 직접 배열 탐색](docs/COUPLED_SEARCH.md): 75개 층별 시험 구조와 32개 직접 탐색 종점(초기 진단 16개·비음수 배경 재탐색 16개)을 추가했습니다. 비음수 배경 조건의 XRD-only 최고 R²는 0.846으로 개선됐지만 다른 ED 방향의 불일치가 남아 최종 구조는 미확정입니다. 최신 보고서는 `results/latest_joint_review.html`입니다.
 - [현재 process 및 실제 ED 비교](docs/ED_MATCHING.md): 후보 12개 + 대조 구조 2개, DM3/TIFF 네 영상, zone 대안 포함 70개 조합. 위치·반사 threshold·배율/왜곡 민감도와 미설명 반사를 기록했습니다.
 - [조성 보존 배열 탐색](docs/OCCUPATIONAL_SEARCH.md): 4b/7b/11b와 두 metric, 탐색 종점 CIF 20개. XRD 일부 구간의 11b 우세는 최종 주기 확정을 뜻하지 않습니다.
 - [이전 32개 가설](docs/COMPOSITION_MODEL_SEARCH.md), [수치 XRD 분석](docs/RAW_XRD_ANALYSIS.md), [초기 위치 가설](docs/POSITION_SCREENING.md), [입력 자료 점검](docs/FIRST_DATA_SURVEY.md).

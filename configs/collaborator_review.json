@@ -1,0 +1,8 @@
+{
+  "output": "../03_structure_model_search/collaborator_review_03",
+  "cif": "/workspace/lfnso-data/collaborator/LFNSO21_B_2M_C2_PS_alternating-1.cif",
+  "xrd_csv": "/workspace/Crystal-structure-adulation_LFNSO-B/03_structure_model_search/raw_xrd_03/LFNSO21-B_profile.csv",
+  "xrd_fits": "../03_structure_model_search/raw_xrd_03/result.json",
+  "ed_summary": "../03_structure_model_search/ed_matching_01/summary.json",
+  "wavelength_A": 1.5406
+}

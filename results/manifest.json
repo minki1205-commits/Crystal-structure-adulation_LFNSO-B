@@ -1,8 +1,18 @@
 [
   {
+    "name": "LFNSO_3D_joint_search_results.zip",
+    "bytes": 28126386,
+    "sha256": "33cdd27ed1c1bb8205f227b8700f50e9a68f82a862d4a4bd74cb6453b27a3bf7"
+  },
+  {
     "name": "LFNSO_ED_matching_results.zip",
     "bytes": 27741044,
     "sha256": "1ae3ca2e8472e17de5e07167debc884ae43bc757c1d2de3156d73cda63756fca"
+  },
+  {
+    "name": "LFNSO_collaborator_CIF_review.zip",
+    "bytes": 19674955,
+    "sha256": "a9405cf520344e9988aac831458a0eff5acd2a16706cb90ff3882a38aa274bbe"
   },
   {
     "name": "LFNSO_composition_models.zip",
@@ -15,14 +25,24 @@
     "sha256": "bed2b755e8c0ba41a402762fd38dc0b305ae73b9469ac3510d8daae282092c88"
   },
   {
+    "name": "collaborator_CIF_review.html",
+    "bytes": 8904496,
+    "sha256": "0917deaacd73f2b3ebf73621357a3630c4f4808578677f62abf484bfe0fe56f6"
+  },
+  {
+    "name": "collaborator_ED_scores.csv",
+    "bytes": 47132,
+    "sha256": "fa0865cc2675153ce6c6a7622da7df54ef4f22de6143cf85b3e011c3fefd53f3"
+  },
+  {
     "name": "latest_joint_review.html",
-    "bytes": 102042,
-    "sha256": "3f584ea7fd44da79b4c506477e404ba34ba5a1e320e233a8809b3ec3df97d17c"
+    "bytes": 1131654,
+    "sha256": "8c06e63283f5359aa1c802a9b9fede1658b7dbb4d010e8c786880650c894b137"
   },
   {
     "name": "latest_joint_scores.csv",
-    "bytes": 2807,
-    "sha256": "ae64b6d3a5b3b84f1e57055124b8d760bda41ea2ec81c507031e387e9707dd1e"
+    "bytes": 3116,
+    "sha256": "66d6ca3cc8b19f8060be6bb362d9a8cfb51f0046cd23affaead80de5350aa940"
   },
   {
     "name": "raw_xrd_results.zip",

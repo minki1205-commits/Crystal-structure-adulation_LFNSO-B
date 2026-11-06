@@ -1,0 +1,14 @@
+{
+  "output": "../03_structure_model_search/coupled_review_02",
+  "staged_summary": "../03_structure_model_search/coupled_search_01/summary.json",
+  "joint_summaries": [
+    "../03_structure_model_search/joint_occupational_03/summary.json"
+  ],
+  "xrd_csv": "/workspace/Crystal-structure-adulation_LFNSO-B/03_structure_model_search/raw_xrd_03/LFNSO21-B_profile.csv",
+  "baseline_xrd": "../03_structure_model_search/occupational_search_03/conditional_B_11b_seed29/xrd.json",
+  "illustrative_compromise": "conditional_B_11b_seed29__6c_joint_w3.0_seed17",
+  "legacy_joint_summaries": [
+    "../03_structure_model_search/joint_occupational_01/summary.json",
+    "../03_structure_model_search/joint_occupational_02/summary.json"
+  ]
+}

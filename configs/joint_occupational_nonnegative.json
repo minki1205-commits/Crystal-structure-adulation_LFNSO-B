@@ -1,0 +1,51 @@
+{
+  "output": "../03_structure_model_search/joint_occupational_03",
+  "bases": [
+    {
+      "id": "conditional_B_7b_seed29",
+      "cif": "../03_structure_model_search/occupational_search_03/conditional_B_7b_seed29/model.cif",
+      "parent_metric": [
+        5.154350084161751,
+        8.945419424033282,
+        5.143718543141643,
+        90,
+        108.80422706371266,
+        90
+      ],
+      "b_repeat": 7,
+      "metric_name": "conditional_B"
+    },
+    {
+      "id": "conditional_B_11b_seed29",
+      "cif": "../03_structure_model_search/occupational_search_03/conditional_B_11b_seed29/model.cif",
+      "parent_metric": [
+        5.154350084161751,
+        8.945419424033282,
+        5.143718543141643,
+        90,
+        108.80422706371266,
+        90
+      ],
+      "b_repeat": 11,
+      "metric_name": "conditional_B"
+    }
+  ],
+  "ed_summary": "../03_structure_model_search/ed_matching_01/summary.json",
+  "affine_summary": "../03_structure_model_search/ed_metric_diagnostic_01/summary.json",
+  "xrd_csv": "/workspace/Crystal-structure-adulation_LFNSO-B/03_structure_model_search/raw_xrd_03/LFNSO21-B_profile.csv",
+  "wavelength_A": 1.5406,
+  "width_deg": 0.25,
+  "c_repeat": 6,
+  "seeds": [
+    17,
+    29
+  ],
+  "ed_weights": [
+    0,
+    0.4,
+    1.2,
+    3.0
+  ],
+  "steps": 4000,
+  "nonnegative_background": true
+}
